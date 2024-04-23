@@ -1,0 +1,40 @@
+.proj-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.proj-container>div:first-child {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 40px 0px 20px 0px;
+}
+
+.proj-container>div:last-child {
+    width: 83%;
+
+    img {
+        width: 100%;
+        border-radius: 16px 16px 0px 0px;
+    }
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* .project-image {
+    opacity: 0.6;
+} */
+
+.image-description {
+    width: 100%;
+    background-color: rgb(245 241 241);
+    color: black;
+    padding: 10px 0px;
+    margin-top: -4px;
+}

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px; */
+}
+
+.container>div {
+    text-align: center;
+    width: 80%;
+    line-height: 28px;
+}
+.container>div:last-child{
+    color: rgb(123, 122, 122);
+}
+.container>div:first-child {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
